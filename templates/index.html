@@ -1,0 +1,203 @@
+{% extends 'layout/base_template.html' %}
+{% load static %}
+{% block title %}
+    BloodLink | Home
+{% endblock %}
+{% block content %}
+    <section class="banner d-flex align-items-center">
+        <div class="banner-img-part"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12 col-xl-8">
+                    <div class="block">
+                        <span class="text-uppercase text-sm letter-spacing ">bloodlink | connecting lives, sharing hope</span>
+                        <h1 class="mb-3 mt-3">BloodLink community</h1>
+                        <p>Did you know? </p>
+                        <p>A single donation can save up to three lives.</p>
+                        <p>Donating blood can actually be good for your health.</p>
+                        <p class="mb-5">So, what are you waiting for? Schedule a donation appointment today and help save lives!</p>
+
+                        <a href="about.html" target="_blank" class="btn btn-main">Learn more about BloodLink<i
+                                class="fa fa-angle-right ml-2"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section process">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="process-block pl-4">
+                        <span class="text-uppercase text-sm letter-spacing">Why choose us</span>
+                        <h2 class="mb-4 mt-3">We help you become part of something extraordinary</h2>
+                        <p class="mb-4">BloodLink makes it easy to schedule appointments, track your progress, and learn more about blood donation.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-xs-12 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="icon-block text-center mb-4 mb-lg-0">
+                                <i class="ti-light-bulb"></i>
+                                <h5>Data analysis</h5>
+                                <p>See impact of your donation</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="icon-block text-center mt-4 mb-4 mb-lg-0">
+                                <i class="ti-panel"></i>
+                                <h5>Connect</h5>
+                                <p>Connect with life-savers through BloodLink.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="icon-block text-center">
+                                <i class="ti-search"></i>
+                                <h5>Discover</h5>
+                                <p>Discover the convenience and impact of donating blood with BloodLink.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="icon-block text-center mt-4">
+                                <i class="ti-rocket"></i>
+                                <h5>Join</h5>
+                                <p>Join the BloodLink movement and make a tangible difference in the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter-item text-center mb-5 mb-lg-0">
+                        <h2 class="mb-0"><span class="counter-stat font-weight-bold">210000</span> +</h2>
+                        <p>Donations Done</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter-item text-center mb-5 mb-lg-0">
+                        <h2 class="mb-0"><span class="counter-stat font-weight-bold">120 </span> </h2>
+                        <p> Organizations </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter-item text-center mb-5 mb-lg-0">
+                        <h2 class="mb-0"><span class="counter-stat font-weight-bold">500000</span></h2>
+                        <p>Active Users</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter-item text-center">
+                        <h2 class="mb-0"><span class="counter-stat font-weight-bold">14</span></h2>
+                        <p>Award Winner </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="heading">
+                        <h2 class="mb-4">What they say about us</h2>
+                        <p>They are truely amazing in the industry ,I would highly recommend BloodLink to anyone who is looking for a convenient and easy way to donate blood.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 testimonial-wrap">
+                    <div class="testimonial-block">
+                        <p>
+                            Life Saver! I never knew giving blood could mean so much until I joined BloodLink. Proud to be part of this community.
+                        </p>
+
+                        <div class="client-info d-flex align-items-center">
+                            <div class="client-img">
+                                <img src="{% static 'app/images/team/testimonial1.jpg' %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6>John Partho</h6>
+                                <span>Nairobi Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-block">
+                        <p>
+                            Quick and Easy! Donating blood with BloodLink was a breeze. They made the process simple, and I left knowing I made a difference.
+                        </p>
+
+                        <div class="client-info d-flex align-items-center">
+                            <div class="client-img">
+                                <img src="{% static 'app/images/team/testimonial2.jpg' %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6>Joy Peris</h6>
+                                <span>Nakuru Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block">
+                        <p>
+                            Changed My Perspective: Before, I was hesitant, but after donating with BloodLink, I realized how easy and impactful it is. Now, I'm a regular donor!
+                        </p>
+
+                        <div class="client-info d-flex align-items-center">
+                            <div class="client-img">
+                                <img src="{% static 'app/images/team/testimonial1.jpg' %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6>Michael Orina</h6>
+                                <span>Eldoret Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block">
+                        <p>
+                            A Network of Heroes: BloodLink connects donors with those in need seamlessly. It's amazing to be part of a network that truly saves lives.
+                        </p>
+
+                        <div class="client-info d-flex align-items-center">
+                            <div class="client-img">
+                                <img src="{% static 'app/images/team/testimonial1.jpg' %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6>Wesley Fofana</h6>
+                                <span>Bungoma Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block">
+                        <p>
+                            Saved My Loved One: My family is forever grateful to the donors and BloodLink. A blood transfusion made all the difference in my loved one's recovery.
+                        </p>
+
+                        <div class="client-info d-flex align-items-center">
+                            <div class="client-img">
+                                <img src="{% static 'app/images/team/testimonial2.jpg' %}" alt="" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h6>Maria Ochari</h6>
+                                <span>Kisii Kenya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
