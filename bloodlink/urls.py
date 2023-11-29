@@ -21,5 +21,11 @@ from main_app import views
 
 urlpatterns = [
     path('', views.home, name="home"),
+    path('about', views.about, name="about"),
+    path('contact', views.contact, name="contact"),
+    path('signin', views.signin, name="signin"),
+    path('signout', views.signout, name="signout"),
+    path('book-appointment', views.book, name="book"),
+    path('profile', views.profile, name="profile"),
     path('admin/', admin.site.urls),
 ]
